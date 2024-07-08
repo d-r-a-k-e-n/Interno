@@ -1,0 +1,14 @@
+.header {
+  margin: 26px 0 18px;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 40px;
+  }
+}

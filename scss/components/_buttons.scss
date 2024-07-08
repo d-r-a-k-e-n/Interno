@@ -1,0 +1,27 @@
+.button {
+  border-radius: 18px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &--dark {
+    border: 2px solid var(--primary-dark);
+    background-color: var(--primary-dark);
+    fill: var(--primary-dark);
+    color: var(--secondary-light);
+  }
+
+  &--light {
+    border: 2px solid var(--primary-light);
+    background-color: var(--primary-light);
+    fill: var(--primary-lignt);
+    box-shadow: 1px 0 18px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &:hover {
+    transform: translateY(-0.1em);
+    box-shadow: 0 0 0.5em 0em #000;
+  }
+}
