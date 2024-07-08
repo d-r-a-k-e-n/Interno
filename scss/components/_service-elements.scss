@@ -1,0 +1,29 @@
+.service-elements {
+  max-width: 320px;
+
+  &__title {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: var(--primary-dark);
+    margin-bottom: 17px;
+  }
+
+  &__text {
+    max-width: 320px;
+    text-align: center;
+    color: var(--secondary-dark);
+    margin-bottom: 48px;
+  }
+
+  &__btn {
+    letter-spacing: 0.02em;
+    color: var(--secondary-dark);
+    gap: 6px;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 0 auto;
+  }
+}

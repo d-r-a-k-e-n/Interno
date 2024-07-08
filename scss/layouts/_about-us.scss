@@ -1,0 +1,11 @@
+.about-us {
+  padding: 75px 0 70px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__item {
+  }
+}

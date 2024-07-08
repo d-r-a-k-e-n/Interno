@@ -17,8 +17,8 @@
               </svg>
             </a>
             <ul class="header__menu">
-              <li><a class="link" href="#">Home</a></li>
-              <li><a class="link" href="#">About Us</a></li>
+              <li><a class="link" href="#hero-section">Home</a></li>
+              <li><a class="link" href="#about-us">About Us</a></li>
               <li><a class="link" href="#">Services</a></li>
               <li><a class="link" href="#">Pages</a></li>
               <li><a class="link" href="#">Contact Us</a></li>
@@ -29,7 +29,7 @@
     </header>
 
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="hero-section">
         <div class="container">
           <h2 class="hero-section__title">Let's Create Your Dream Interior</h2>
           <p class="hero-section__text">
@@ -42,6 +42,59 @@
               <use href="./img/sprite.svg#big-arrow"></use>
             </svg>
           </button>
+        </div>
+      </section>
+
+      <section class="about-us" id="about-us">
+        <div class="container">
+          <h2 class="visually-hidden">About us</h2>
+          <ul class="about-us__list">
+            <li class="about-us__item">
+              <article class="service-elements">
+                <h3 class="service-elements__title">Interior Design</h3>
+                <p class="service-elements__text">
+                  Enhancing the interior to achieve a healthier environment for
+                  the people using right space.
+                </p>
+                <button class="service-elements__btn button">
+                  View More
+                  <svg width="26" height="36">
+                    <use href="./img/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+            <li class="about-us__item">
+              <article class="service-elements">
+                <h3 class="service-elements__title">Furniture</h3>
+                <p class="service-elements__text">
+                  Movable articles that are used to make a room or building
+                  suitable for living or working.
+                </p>
+                <button class="service-elements__btn button">
+                  View More
+                  <svg width="26" height="36">
+                    <use href="./img/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+            <li class="about-us__item">
+              <article class="service-elements">
+                <h3 class="service-elements__title">Flooring</h3>
+                <p class="service-elements__text">
+                  Thin object any finished material applied over a floor
+                  structure to provide a walking surface.
+                </p>
+                <button class="service-elements__btn button">
+                  View More
+                  <svg width="26" height="36">
+                    <use href="./img/sprite.svg#arrow"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
